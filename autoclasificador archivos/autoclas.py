@@ -1,9 +1,9 @@
 import os
 import shutil
 
-directorio_origen = 'C:/Users/Oh Yeah/Desktop/desorgani'
+directorio_origen = '-'
 
-directorio_destino = 'C:/Users/Oh Yeah/Desktop/organi'
+directorio_destino = '-'
 
 def organizar_archivos_por_extension(directorio_origen, directorio_destino):
     if not os.path.exists(directorio_destino):
